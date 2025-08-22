@@ -1,0 +1,44 @@
+body {
+    color: #fff;
+    background-color: #111;
+}
+
+.stApp {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.stTextArea textarea {
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #262730;
+    color: #FAFAFA;
+    font-size: 16px;
+}
+
+.stButton>button {
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: var(--primary-color);
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.stButton>button:hover {
+    border-color: #3e8e41;
+    background-color: #3e8e41;
+    color: #FFFFFF;
+}
+
+.stAlert {
+    border-radius: 10px;
+}
